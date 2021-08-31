@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ============================= UNICONS ============================= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- ============================= BOOTSTRAP CSS ============================= -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- ============================= BOOTSTRAP JS ============================= -->
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <!-- ============================= SWIPER CSS ============================= -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <!-- ============================= CSS ============================= -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Jordan Guitar</title>
+</head>
+<body>
+   <button class="button" role="button">click</button>
+    <div class="container " id="container">
+        <div style="background-color: rgba(0,0,0,0.6);">
+            ASDAS
+        </div>
+        <div class="d-none">
+            bbbbb
+        </div>
+    </div>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">点我弹出/隐藏弹出框</button>
+   <script>
+       const Click = document.querySelectorAll('.button')
+       function linkAction(){
+        
+            const clickContainer = document.getElementById('container')
+
+            clickContainer.classList.remove('invisible')
+
+       }
+
+       Click.forEach(n => n.addEventListener('click',linkAction))
+
+   </script>
+</body>
+</html>

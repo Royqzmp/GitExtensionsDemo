@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ============================= UNICONS ============================= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- ============================= FONT-AWESOME ============================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- ============================= BOOTSTRAP CSS ============================= -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- ============================= BOOTSTRAP JS ============================= -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <!-- ============================= SWIPER CSS ============================= -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <!-- ============================= CSS ============================= -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>Jordan Guitar</title>
+</head>
+<body>
+     <!-- ============================= HEADER ============================= -->
+     <header class="header" id="header" >
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Jordan Guitar</a>
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list grid">
+                <li class="nav__item">
+                  <a href="#home" class="nav__link">
+                    <i class="uil uil-estate nav__icon"></i> Home
+                  </a>
+              </li>
+              <li class="nav__item">
+                  <a href="E:\WebPage\assets\About.html" class="nav__link active-link">
+                    <i class="uil uil-user nav__icon"></i> About me
+                  </a>
+              </li>
+              <li class="nav__item">
+                  <a href="#genre" class="nav__link">
+                    <i class="uil uil-file-alt nav__icon"></i> Guitar Lessons
+                  </a>
+              </li>
+              <li class="nav__item">
+                  <a href="#pricing" class="nav__link">
+                    <i class="uil uil-briefcase-alt nav__icon"></i> Pricing
+                  </a>
+              </li>
+              <li class="nav__item">
+                  <a href="#hiteacher " class="nav__link">
+                    <i class="uil uil-scenery nav__icon"></i> Hi Teacher
+                  </a>
+              </li>
+              <li class="nav__item">
+                  <a href="#contact " class="nav__link">
+                    <i class="uil uil-message nav__icon "></i> Contact Me
+                  </a>
+              </li>
+              </ul>   
+              <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+              <!-- Theme change button  -->
+              <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div> 
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="upload section" id="upload" style="background-color: rgba(0,0,0,0.6); ">
+            <div class="d-block upload__change" style="height: 60%;" >
+                <h1 class="title__big d-flex justify-content-center align-items-center fw-bold fs-1" style="height: 40%; " >File Sharing and Storage Made Simple</h1>
+
+                <div class="about__buttons align-items-center justify-content-center">
+                    <a download="" href="#" class="button button--flex justify-content-center" style="width: 15rem; height: 3.8rem;" >UPLOAD FILES NOW
+                    <i class="uil uil-upload-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ============================= Upload interface ============================= -->
+    <div class="container position-absolute d-flex flex-row flex-grow-0 flex-shrink-0 overflow-hidden align-items-center justify-content-center " style="inset: 0px;" >        
+      <div class="upload__container position-relative d-flex flex-column overflow-hidden align-items-stretch justify-content-center" style="flex: 1 1 0%; max-width: 768px; z-index: 90; ">
+        <div class="uploadmessagebox__container position-relative d-flex flex-column flex-grow-1 flex-shrink-1 overflow-hidden align-items-stretch" style="background-color: rgb(255, 255, 255);">
+    <!-- ============================= TITLE ============================= -->
+            <div class="upload__title position-relative d-flex flex-row flex-grow-0 flex-shrink-0 overflow-hidden align-items-center" style="height: 54px; border-width: 0 0 1px; border-color: rgb(232, 233, 236); background-color: rgb(244, 244, 245); border-style: solid;">
+                <div class="position-relative d-inline flex-grow-1 flex-shrink-1 overflow-hidden white-space" style="white-space: pre-wrap; overflow-wrap: break-word; color: rgb(30,35,47); padding-left: 20px; font-size: 16px; cursor: inherit;">
+                    Select Files to Upload 
+                </div>
+                <div class="position-absolute f-c cursor-p" style="top: 1rem; right: 1rem; font-size: 1.5rem;">
+                    <i class="uil uil-times upload-close-icon"></i>
+                </div>
+            </div>
+    <!-- ============================= UPLOAD BUTTON ============================= -->
+            <div class="upload__center position-relative d-flex flex-column flex-grow-1 flex-shrink-1 overflow-hidden align-self-center justify-content-center">
+                <!-- <input type="file" tabindex="-1" multiple>
+                <label></label> -->
+                <div class="position-relative d-flex flex-row flex-grow-0 flex-shrink-0 overflow-hidden align-items-center justify-content-center" style="width: 180px; height: 180px; border-width: 3px; border-radius: 5px; border-style: dashed; border-color: rgb(232, 233, 236); margin: 50% 0;">
+                  <svg class="upload__blob " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="64px" width="64px" style="display: flex; position: relative; flex: 0 0 auto; overflow: hidden;"><path fill="#e8e9ec" d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"/></svg>
+                </div>
+            </div>
+    <!-- ============================= CONFIRM BUTTON============================= -->
+            <div class="upload__confirm uploadmessagebox__container position-relative d-flex flex-row flex-grow-0 flex-shrink-0 overflow-hidden align-items-stretch" style="height: 62; padding-right: 16px; border-width: 1px 0 0; border-color: rgb(232, 233, 236); background-color: rgb(244, 244, 245); border-style: solid;">
+                <div class="confirm__container position-relative d-flex flex-row-reverse flex-grow-1 flex-shrink-1 overflow-hidden align-items-center">
+                    <button role="button" class="position-relative d-flex flex-column flex-grow-0 flex-shrink-0 overflow-hidden align-items-stretch justify-content-center bg-transparent text-start" style="border-color: transparent; border-width: 0; padding: 1px; opacity: 0.5; cursor: default; border-style: solid;">
+                        <div class="position-relative d-flex flex-column flex-grow-1 flex-shrink-1 overflow-hidden align-items-center justify-content-center" style="height: 40px;min-width: 90px; border-width: 2px; border-radius: 3px; border-color: rgb(0, 112,240); padding-left: 16px; padding-right:16px;
+                        background-color: rgb(0, 112,240); border-style: solid;">
+                            <div class="position-relative d-inline flex-grow-0 flex-shrink-0 overflow-hidden " style="white-space: pre-wrap; overflow-wrap: break-word; font-size: 11px; font-weight: 400; color: rgb(255,255,255); cursor: inherit;">BEGIN UPLOAD</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div> 
+      </div>
+    </div>
+        </section>
+        
+    </main>
+     <!-- ============================= FOOTER ============================= -->
+    <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">Jordan</h1>
+               <span class="footer__subtitle">Guitar Teacher</span>
+            </div>
+  
+            <ul class="footer__links">
+              <li>
+                <a href="#services" class="footer__link">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer__link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Contactme</a>
+              </li>
+            </ul>
+  
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                <i class="uil uil-instagram"></i>
+              </a>
+               
+              <a href="https://twitter.com/"target="_blank" class="footer__social">
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
+          </div>
+          
+          <p class="footer__copy">&#169; Jordan Guitar. All right reserved</p> 
+        </div>
+      </footer>
+  
+      <!-- ============================= SCROLL TOP ============================= -->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+      </a>
+      <!-- ============================= SWIPERJS ============================= -->
+        <script src="../JS/swiper-bundle.min.js"></script>
+      <!-- ============================= JS ============================= -->
+      <script src="../JS/main.js"></script>
+</body>
+</html>
